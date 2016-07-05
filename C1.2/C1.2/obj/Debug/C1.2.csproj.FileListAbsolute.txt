@@ -1,0 +1,6 @@
+C:\Users\Тимофей\Desktop\[...]\Практика\C1.2\C1.2\bin\Debug\C1.2.exe.config
+C:\Users\Тимофей\Desktop\[...]\Практика\C1.2\C1.2\bin\Debug\C1.2.exe
+C:\Users\Тимофей\Desktop\[...]\Практика\C1.2\C1.2\bin\Debug\C1.2.pdb
+C:\Users\Тимофей\Desktop\[...]\Практика\C1.2\C1.2\obj\Debug\C1.2.exe
+C:\Users\Тимофей\Desktop\[...]\Практика\C1.2\C1.2\obj\Debug\C1.2.pdb
+C:\Users\Тимофей\Desktop\[...]\Практика\C1.2\C1.2\obj\Debug\C1.2.csprojResolveAssemblyReference.cache
