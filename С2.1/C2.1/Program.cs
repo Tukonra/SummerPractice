@@ -8,16 +8,17 @@ namespace C2._1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)                                             //Задание 188
         {
             double summ = 0;
             int k = 0;
 
             Console.Write("Введите число n: ");
             int n = Convert.ToInt32(Console.ReadLine());
-            if (n <= 0) Console.WriteLine("Значение введено некорректно!");
 
-            double[] array = new double[n];
+            if (n <= 0) Console.WriteLine("Значение введено некорректно!");         //Проверка на корректность ввода
+
+            double[] array = new double[n];                                         //Объявление массива
             Random rnd = new Random();
             for (int i = 0; i < n; i++)                       
             {
