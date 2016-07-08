@@ -31,13 +31,12 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btnExit = new System.Windows.Forms.Button();
-            this.btnOpen = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(428, 53);
+            this.btnSave.Location = new System.Drawing.Point(428, 59);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(142, 23);
             this.btnSave.TabIndex = 0;
@@ -57,23 +56,13 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(428, 237);
+            this.btnExit.Location = new System.Drawing.Point(428, 118);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(142, 23);
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Закрыть";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
-            // btnOpen
-            // 
-            this.btnOpen.Location = new System.Drawing.Point(428, 12);
-            this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(142, 23);
-            this.btnOpen.TabIndex = 4;
-            this.btnOpen.Text = "Открыть";
-            this.btnOpen.UseVisualStyleBackColor = true;
-            this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
             // label1
             // 
@@ -93,7 +82,6 @@
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(582, 297);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnOpen);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.btnSave);
@@ -109,7 +97,6 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Button btnOpen;
         private System.Windows.Forms.Label label1;
     }
 }
