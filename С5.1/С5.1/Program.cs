@@ -8,7 +8,7 @@ namespace С5._1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //401
         {
             Console.Write("Введите число строк - ");
             int n = Convert.ToInt32(Console.ReadLine());
@@ -20,7 +20,7 @@ namespace С5._1
             Console.Write("Введите номер столбца для удаления - ");
             int p = Convert.ToInt32(Console.ReadLine());
 
-            int[,] a = new int[n, k];
+            int[,] a = new int[n, k];                                   //Объявление массива
 
             Random random = new Random();
             for (int i = 0; i < n; i++)

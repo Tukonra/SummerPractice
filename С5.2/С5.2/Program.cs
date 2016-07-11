@@ -8,7 +8,7 @@ namespace С5._2
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //428
         {
             Console.WriteLine("Введите первое число");
             int a = Convert.ToInt32(Console.ReadLine());
@@ -18,15 +18,12 @@ namespace С5._2
             int u, v;
             double k;
 
-            u = Math.Min(a,b);
-            v = Math.Min(a * b, a + b);
-            k = Math.Min(u+(v*v),3.14);
-            Console.Write("min(a,b) = ");
-            Console.WriteLine(u);
-            Console.Write("min(ab, a+b) = ");
-            Console.WriteLine(v);
-            Console.Write("min(u+(v*v), 3.14) = ");
-            Console.WriteLine(k);
+            u = Math.Min(a,b);                                  //Определение минимума для первого действия
+            v = Math.Min(a * b, a + b);                         //Определение минимума для второго действия
+            k = Math.Min(u+(v*v),3.14);                         //Определение минимума для третьего действия
+            Console.WriteLine("min(a,b) = "+u+"");
+            Console.WriteLine("min(ab, a+b) = "+v+"");
+            Console.WriteLine("min(u+(v*v), 3.14) = "+k+"");
             Console.ReadKey();
         }
     }
