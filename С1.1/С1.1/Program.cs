@@ -10,24 +10,24 @@ namespace С1._1
     {
         static void Main(string[] args)
         {
-            double y, y1;
+            double y, y1;                                               //Объявление переменных
             int cnt = 0;
 
-            Console.WriteLine("Введите первое число");                 //Ввод числа x
+            Console.WriteLine("Введите первое число");                  //Ввод числа x
             int x = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Введите второе число");                 //Ввод числа a
+            Console.WriteLine("Введите второе число");                  //Ввод числа a
             int a = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Введите третье число");
+            Console.WriteLine("Введите третье число");                  //Ввод числа e
             int e = Convert.ToInt32(Console.ReadLine());
             
-            y = a;
-            y1 = y;
+            y = a;                                                      //Заданием параметры из условия
+            y1 = y;                                                     //Заданием параметры из условия
 
-            double k = Math.Abs(y * y - y1 * y1);
+            double k = Math.Abs(y * y - y1 * y1);                       //Задаем формулу для неравенства
 
-            for (int i = 1; k < e; i++)
+            for (int i = 1; k < e; i++)                                 //Цикл для нахождения первого члена
             {
                 if (k < e)
                 {

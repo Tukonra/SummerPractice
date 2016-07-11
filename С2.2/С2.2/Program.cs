@@ -8,11 +8,11 @@ namespace С2._2
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //198
         {
             double s = 0;
 
-            Console.WriteLine("Введите n");
+            Console.WriteLine("Введите номер последнего члена последовательности"); //Ввод номера последнего члена
             int n = Convert.ToInt32(Console.ReadLine());
 
             if (n <= 0) Console.WriteLine("Значение введено некорректно!");
