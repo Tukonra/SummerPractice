@@ -150,6 +150,7 @@
             this.Controls.Add(this.notes_list);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox1);
+            this.IsMdiContainer = true;
             this.Name = "Form1";
             this.Text = "Приложение \"Заметки\"";
             ((System.ComponentModel.ISupportInitialize)(this.notes_list)).EndInit();

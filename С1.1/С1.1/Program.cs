@@ -10,9 +10,6 @@ namespace С1._1
     {
         static void Main(string[] args)
         {
-            double y, y1;                                               //Объявление переменных
-            int cnt = 0;
-
             Console.WriteLine("Введите первое число");                  //Ввод числа x
             int x = Convert.ToInt32(Console.ReadLine());
 
@@ -21,23 +18,19 @@ namespace С1._1
 
             Console.WriteLine("Введите третье число");                  //Ввод числа e
             int e = Convert.ToInt32(Console.ReadLine());
-            
-            y = a;                                                      //Заданием параметры из условия
-            y1 = y;                                                     //Заданием параметры из условия
 
-            double k = Math.Abs(y * y - y1 * y1);                       //Задаем формулу для неравенства
-
-            for (int i = 1; k < e; i++)                                 //Цикл для нахождения первого члена
+            double y, y0;
+            y0 = a;
+            double y1;//i-й y
+            for (;;)
             {
-                if (k < e)
-                {
-                    y1 = y;
-                    y = 0.5 * (y1 + x / y1);
-                    cnt = e;
-                }
+                y = y0;
+                y0 = y1 = 0.5 * (y + x / y);
+                if (Math.Abs(y1 * y1 - y * y) < e) break;
             }
+
             Console.Write("Первый член последовательности - ");
-            Console.WriteLine(cnt);
+            Console.WriteLine(y1.ToString());
             Console.ReadKey();
         }
     }
