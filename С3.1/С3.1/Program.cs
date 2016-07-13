@@ -8,9 +8,9 @@ namespace С3._1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //259
         {
-            Console.WriteLine("Введите число n");
+            Console.WriteLine("Введите количество членов последовательности");
             int n = Convert.ToInt32(Console.ReadLine());
 
             char[] array = new char[n];                                           //Объявление массива
